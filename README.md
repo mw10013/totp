@@ -1,3 +1,11 @@
+## Types Branch
+
+- To ease use as a github dependency for Cloudflare testing with types.
+- Types are generated during the release process. We generate them manually in
+  this branch.
+- npx -p typescript tsc index.js --declaration --allowJs --emitDeclarationOnly
+  --outDir .
+<hr />
 <div>
   <h1 align="center"><a href="https://npm.im/@epic-web/totp">🕰 @epic-web/totp</a></h1>
   <strong>
